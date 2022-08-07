@@ -4,7 +4,7 @@ import os
 
 
 class Config(object):
-	BOT_TOKEN = os.environ.get("5088657122:AAFlOm_612eSVMN-ML-akdXe2C-EhijqN9k")
+	BOT_TOKEN = os.environ.get("5088657122:AAE6wmIKWJXTnwDNnUwIWdCOHAXUv8Y0EVU")
 	API_ID = int(os.environ.get("3335796", 12345))
 	API_HASH = os.environ.get("138b992a0e672e8346d8439c3f42ea78")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
@@ -17,7 +17,7 @@ class Config(object):
 	CAPTION = "★ @FarshidBand ™"
 	BOT_USERNAME = os.environ.get("fi2li123robot", "VideoWatermark_Bot")
 	DATABASE_URL = os.environ.get("mongodb+srv://abirhasan2005:abirhasan@cluster0.lb2tp.mongodb.net/cluster0?retryWrites=true&w=majority")
-	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+	BROADCAST_AS_COPY = bool(os.environ.get("hi", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
 **👋 سلام دوست عزیز خوش آمدید ✨**
